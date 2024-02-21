@@ -1,0 +1,145 @@
+/* style.css */
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #006363; /* Cor de fundo principal */
+    color: #ffffff; /* Cor do texto */
+}
+.social-links {
+    display: flex; /* Use flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin-top: 20px; /* Adicione margem superior para espaçamento */
+}
+
+.social-links a {
+    display: inline-block; /* Mantenha os links como elementos de bloco para respeitar as margens */
+    margin-right: 10px; /* Ajuste o espaçamento entre os ícones de mídia social conforme necessário */
+}
+.social-links img {
+    width: 40px; /* Reduz o tamanho dos ícones para 20px de largura */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Para criar uma forma de círculo para os ícones */
+    transition: transform 0.3s ease; /* Adiciona um efeito de transição suave ao passar o mouse sobre os ícones */
+    background-color: #000000;
+}
+
+/* Estilos de hover para os ícones de mídia social */
+.social-links img:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho dos ícones ao passar o mouse sobre eles */
+  }
+
+  #Minha\ História, #Nossa\ Missão, #Nossos\ Valores, #A\ nossa\ atuação , #Nossos\ valores, #Parcerias, #Previdenciario{
+    background-color: #1d1c1c;
+    color: #ffffff;
+    padding: 20px;
+    margin: 30px 20px;
+    border-radius: 10px;
+}
+
+#Minha\ História h2, #Nossa\ Missão h2, #Nossos\ Valores h2, #A\ nossa\ atuação h2,
+#Nossos\ valores h2, #Parcerias h2, #Previdenciario h2 {
+    color: #996515;
+}
+
+
+
+header {
+    text-align: center;
+    background-color: #1d1c1c; /* Cor de destaque */
+    padding: 10px;
+}
+
+header img {
+    max-width: 80%; /* Reduzindo a largura da imagem para 80% do contêiner */
+    height: auto;
+    background-color: #1d1c1c; /* Mantendo o fundo preto */
+}
+
+h1 {
+    text-align: center;
+    color: #000000; /* Cor do texto */
+    margin-top: 20px;
+}
+
+.image-text-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.circular-image {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    border: 5px solid  #996515; /* Cor da borda */
+}
+
+section {
+    margin: 30px 20px;
+}
+
+.formularios {
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* Estilo para todos os botões */
+button {
+    background-color: #854011; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    border: none; /* Remover borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+    margin: 5px; /* Margem entre os botões */
+}
+
+/* Estilo para o ícone dentro do botão */
+button i {
+    margin-right: 5px; /* Margem à direita do ícone */
+}
+
+/* Estilo de hover para os botões */
+button:hover {
+    background-color: #1d1c1c; /* Cor de fundo ao passar o mouse */
+}
+
+
+#abrirFormularioBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF; /* Cor do texto */
+    background-color:  #996515; /* Cor de destaque */
+    border: 2px solid  #f0f0f0; /* Cor da borda */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#abrirFormularioBtn:hover {
+    background-color:  #996515; /* Cor de destaque ao passar o mouse */
+}
+
+#informacoes {
+    background-color:  #996515; /* Cor de destaque */
+    color: #FFFFFF; /* Cor do texto */
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Adiciona bordas arredondadas de 10px */
+}
+
+#informacoes p {
+    margin: 15px 0;
+}
+footer{
+    background-color: #1d1c1c; /* Cor de destaque do rodapé */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centralizar o texto */
+    padding: 20px 0; /* Espaçamento interno */
+}
